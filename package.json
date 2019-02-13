@@ -1,0 +1,21 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "This full-stack site takes in results from users' surveys, then compares their answers with those from other users. The app then displays the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcarey1213/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarey1213/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/pcarey1213/FriendFinder#readme"
+}
