@@ -13,19 +13,17 @@ The Express module is used to handle routing. App is deployed to Heroku so multi
 2. The `/` path directs the user to the home page.
    ("")
 3. The `htmlRoutes.js` file includes two routes:
-   * A GET Route to `/survey` which displays the survey page.
+   * A GET Route to `/survey` that leads to `survey.html` which displays the survey page.
    ("")
    * A default, catch-all route that leads to `home.html` which displays the home page.
    ("")
 4. The `apiRoutes.js` file contains two routes:
-   ("")
    * A GET route with the url `/api/friends` that displays a JSON of all possible friends.
    ("")
    * A POST route `/api/friends` that handles all incoming survey results and compatibility logic.
    ("")
 5. Application's data is saved inside of `app/data/friends.js` as an array of objects. Each of these objects roughly follows the format below.
    ("")
-
 6. The user's most compatible friend is determined from logic in `apiRoutes.js`
    ("")
 7. Once the current user's most compatible friend is found, the result is displayed as a modal pop-up.
